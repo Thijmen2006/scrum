@@ -1,0 +1,843 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.zachtrandjeafb {
+    border-radius: 20px;
+}
+
+/*Hieronder de css voor algemenepagina's*/
+.testfoto {
+    opacity: 0.65;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+}
+
+h4:hover {
+    color: orange;
+}
+
+body {
+    background-image: url("afbeeldingen/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/*Hieronder de css voor de header en footer*/
+
+.navbar {
+    display: flex;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.4);
+    min-height: auto;
+    top: 0;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    max-width: 2000px;
+    z-index: 100;
+}
+
+
+.navimage {
+    max-height: 40px;
+}
+
+.navbar_opties {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centernav {
+    display: flex;
+    max-width: 2000px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+}
+
+.active {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.navbartext {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    min-width: 200px;
+}
+
+.footertext {
+    color: white;
+    font-size: min(max(50px), 2vw);
+    margin: 10px;
+    max-width: 2000px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#barimg {
+    object-fit: contain;
+    height: 10rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    width: 100%;
+    max-width: 2000px;
+    margin-top: 10%;
+    height: 60px;
+}
+
+.footertext:hover {
+    color: orange;
+}
+
+.footer_contact:hover {
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    padding: -10px;
+}
+
+.inlog_afbeelding {
+    height: 40px;
+    width: 60px;
+}
+
+.inlog_afbeelding2 {
+    height: 40px;
+    width: 40px;
+}
+
+/*De css voor de pagina nieuwe studenten staat hieronder*/
+
+.centredtext {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.containercentre {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.containercentre img {
+    width: 513px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#firsttext {
+    margin-top: 4rem;
+}
+
+.textbox {
+    margin-left: -41rem;
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.textbox p {
+    padding: 6px;
+    background-color: #0e182200;
+}
+
+.stripetext {
+    max-width: 300px;
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    border-radius: 4px;
+    background-color: lightgrey;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.connectme {
+    opacity: 0.65;
+}
+
+.jarvis {
+    opacity: 0.65;
+    width: 100%;
+    height: auto;
+}
+
+/*De css voor de pagina voor bedrijfen staat hieronder*/
+.containerbedrijven {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.centretext {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.tekstvlakgrijs {
+    position: relative;
+    width: 350px;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.tekstvlakgrijs p {
+    padding: 6%;
+}
+
+.containerbedrijven img {
+    height: 400px;
+    width: 600px;
+    object-fit: fill;
+}
+
+.bedrijffoto {
+    opacity: 0.65;
+}
+
+.imgwhitebackground {
+    background-color: white;
+}
+
+/*Hieronder de css voor de index pagina*/
+
+.containerindex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.indexcontainer {
+    position: relative;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.bottomsidetext {
+    margin-top: -23px;
+    position: absolute;
+    width: 150px;
+    max-width: 30%;
+    max-height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.index1eimage :first-child {
+    width: 90%;
+}
+
+.index1eimage {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.uplefttext {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    max-width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    border: transparent;
+    font-size: larger;
+    background-color: rgb(3, 156, 167);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.uplefttext p {
+    background-color: rgba(211, 211, 211, 0);
+    padding-top: 10px;
+}
+
+.index1efoto img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    
+}
+
+.index2efoto img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.index3efoto img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+#index_info {
+    width: 80%;
+    height: auto;
+    background-color: rgb(3, 156, 167);
+    border: transparent;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.bottomcentertext p {
+    color: white;
+    padding-top: 15px;
+}
+
+.indexhuidigestudenten {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.indexhuidigestudenten:hover {
+    color: orange;
+}
+
+.indexnieuwestudenten {
+    text-decoration: none;
+    color: white;
+}
+
+.indexnieuwestudenten:hover {
+    color: orange;
+}
+
+.indexbedrijven {
+    text-decoration: none;
+    color: white;
+}
+
+.indexbedrijven:hover {
+    color: orange;
+}
+
+/*hieronder de css voor de contactpagina*/
+#firstimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicepuntcontact {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.contactgegevens {
+    color: blue;
+}
+
+.formulier {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+
+.verzend {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.verzend span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.verzend svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.verzend:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.verzend:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.verzend:hover span {
+    transform: translateX(5em);
+}
+
+.verzend:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#vragen {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+input {
+    height: 15px;
+    width: 200px;
+}
+
+.bericht {
+    height: 100px;
+    width: 200px;
+}
+
+.submitbutton {
+    height: 30px;
+    width: 200px;
+}
+
+/*hieronder de css van de inlogpagina*/
+
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.login h1 {
+    text-align: center;
+    background-color: #3274d6;
+    color: white;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #2868c7;
+    transition: background-color 0.2s;
+}
+
+.login_button {
+    height: 60px;
+}
+
+.loginfout {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+
+.teruglogin {
+    color: white;
+    border: solid black;
+    padding: 30px;
+}
+
+/*hieronder de css van de huidigestudentenpagina*/
+.huidige_studentencontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eersteimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.tweedeimage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 200px;
+}
+
+.huidigestudenten_lefttext {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+    height: 46%;
+    background-color: rgba(184, 239, 238, 0.956);
+    border-radius: 20px;
+}
+
+.huidigestudenten_lefttext p {
+    background-color: rgba(240, 230, 140, 0);
+    padding: 5px;
+}
+
+.huidigestudenten_righttext {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(242, 194, 105, 0.956);
+    border: transparent;
+    border-radius: 20px;
+}
+
+.huidigestudenten_righttext p {
+    background-color: #0e182200;
+    padding: 5px;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+#eersteimage :first-child {
+    display: flex;
+    height: 80%;
+    width: 70%;
+    border-radius: 20px;
+    position: relative;
+}
+
+#tweedeimage :first-child {
+    display: flex;
+    height: 80%;
+    width: 70%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.test {
+    background-color: white;
+}
+
+.connectmeafb {
+    opacity: 0.65;
+}
+
+.eduarte {
+    opacity: 0.65;
+}
+
+/* animatie knoppen voor connectme en eduarte */
+
+.connectme_button {
+    /* font-family: 'Valorant', sans-serif; */
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+}
+
+.connectme_button:hover {
+    border: 1px solid #FF4655;
+    color: white;
+    background-position: 40%;
+}
+
+.connectme_button:before {
+    content: "";
+    position: absolute;
+    background-color: #0E1822;
+    width: 0.2rem;
+    height: 0.2rem;
+    top: -1px;
+    left: -1px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.connectme_button:hover:before {
+    background-color: white;
+}
+
+.connectme_button:hover:after {
+    background-color: white;
+}
+
+.connectme_button:after {
+    content: "";
+    position: absolute;
+    background-color: #FF4655;
+    width: 0.3rem;
+    height: 0.3rem;
+    bottom: -1px;
+    right: -1px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+
+.shape {
+    fill: #0E1822;
+}
+
+.eduarte_button {
+    /* font-family: 'Valorant', sans-serif; */
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.eduarte_button:hover {
+    border: 1px solid #FF4655;
+    color: white;
+    background-position: 40%;
+}
+
+.eduarte_button:before {
+    content: "";
+    position: absolute;
+    background-color: #0E1822;
+    width: 0.2rem;
+    height: 0.2rem;
+    top: -1px;
+    left: -1px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.eduarte_button:hover:before {
+    background-color: white;
+}
+
+.eduarte_button:hover:after {
+    background-color: white;
+}
+
+.eduarte_button:after {
+    content: "";
+    position: absolute;
+    background-color: #FF4655;
+    width: 0.3rem;
+    height: 0.3rem;
+    bottom: -1px;
+    right: -1px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+
+
+/* De CSS voor de berichten pagina*/
+.berichten-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+td {
+    padding: 12px;
+    border: 3px solid grey;
+    background-color: lightgrey;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10px;
+    width: 60rem;
+}
+
+.loginsuccess {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* De CSS voor de login fout pagina */
+
+#error {
+    color: white;
+}
+
+#terugknop {
+    background-color: white;
+}
+
+#terugknop:hover {
+    background-color: lightgrey;
+}
+
+#terugknop p {
+    color: black;
+}
